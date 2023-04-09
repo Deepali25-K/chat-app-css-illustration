@@ -14,14 +14,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Web]()
+![Web](/screenshots/FM-2.png)
 
-![Mobile]()
+![Mobile](/screenshots/FM-1.png)
 
 
 ### Links
 
-- Live Site URL: [Demo]()
+- Live Site URL: [Demo](https://css-chat-app-illustration-deepali.netlify.app/)
 
 ## My process
 
