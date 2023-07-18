@@ -1,6 +1,6 @@
-# Frontend Mentor - Chat app CSS illustration solution
+# Frontend Mentor - Clipboard landing page solution
 
-This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
 ## Overview
@@ -9,19 +9,19 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- **Bonus**: See the chat interface animate on the initial load
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
-![Web](/screenshots/FM-2.png)
+![Web]()
 
-![Mobile](/screenshots/FM-1.png)
+![Mobile]()
 
 
 ### Links
 
-- Live Site URL: [Demo](https://css-chat-app-illustration-deepali.netlify.app/)
+- Live Site URL: [Demo]()
 
 ## My process
 
@@ -29,7 +29,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Flexbox and Grid
 - Mobile-first workflow
 
 ## Author
