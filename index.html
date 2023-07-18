@@ -3,111 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles.css">
 
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/34b056a3c5.js" crossorigin="anonymous"></script>
   
-  <title>Frontend Mentor | Clipboard landing page</title>
+  <title>Frontend Mentor | [Challenge Name Here]</title>
 
 </head>
 <body>
 
-  <section class="main">
-    <a href="#"><img src="https://raw.githubusercontent.com/Deepali25-K/clipboard_landing_page/main/images/logo.svg" alt="logo"></a>
-    <h1>A history of everything you copy</h1>
-    <p>Clipboard allows you to track and organize everything you
-      copy. Instantly access your clipboard on all your devices.</p>
-    <div class="buttons">
-      <button>Download for iOS</button>
-      <button>Download for Mac</button>
-    </div>
-  </section>
-  
-  <section class="about">
-    <h1>Keep track of your snippets</h1>
-    <p>Clipboard instantly stores any item you copy in the cloud,
-      meaning you can access your snippets immediately on all your
-      devices. Our Mac and iOS apps will help you organize everything.</p>
-    <div class="snippet-tracking">
-      <img src="https://i.ibb.co/PY7hRgG/image-computer.png" class="image" alt="image-computer" border="0">
-      <dl>
-        <dt>Quick Search</dt>
-        <dd>Easily search your snippets by content, category, web address, application, and more.</dd>
-        <dt>iCloud Sync</dt>
-        <dd>Instantly saves and syncs snippets across all your devices.</dd>
-        <dt>Complete History</dt>
-        <dd>Retrieve any snippets from the first moment you started using the app.</dd>
-      </dl>
-    </div>
-  
-    <h2>Access Clipboard anywhere</h2>
-    <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
-      snippets in a few simple clicks.</p>
-    <img src="https://i.ibb.co/FxM1qmh/image-devices.png" class="image" alt="image-devices" border="0">
-    <h2>Supercharge your workflow</h2>
-    <p>We’ve got the tools to boost your productivity.</p>
-    <dl class="tools">
-      <div>
-        <dt><img src="https://raw.githubusercontent.com/Deepali25-K/clipboard_landing_page/main/images/icon-blacklist.svg" alt="icon-blacklist"></dt>
-        <dd>
-          <p>Create blacklists</p>
-          <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-        </dd>
+  <main>
+
+    <div class="illustration-container">
+      <div class="mobile">
+        <div class="chat-header">
+          <div class="notch"></div>
+          <div class="flexbox">
+            <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
+            <div class="profile">
+              <img src="/images/avatar.jpg" alt="image-of-samuel">
+              <div class="info">
+                <h2>Samuel Green</h2>
+                <p>Available to Walk</p>
+              </div>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="chat-interface">
+          <div class="message-box received-text">
+            <p>That sounds great. I’d be happy with that.</p>
+          </div>
+          <div class="message-box received-text">
+            <p>Could you send over some pictures of your dog, please?</p>
+          </div>
+          <div class="message-box images">
+            <img src="/images/dog-image-1.jpg" alt="image-of-dog1">
+            <img src="/images/dog-image-2.jpg" alt="image-of-dog2">
+            <img src="/images/dog-image-3.jpg" alt="image-of-dog3">
+          </div>
+          <div class="message-box sent-text">
+            <p>Here are a few pictures. She’s a happy girl!</p>
+          </div>
+          <div class="message-box sent-text">
+            <p>Can you make it?</p>
+          </div>
+          <div class="message-box received-text">
+            <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+          </div>
+          <div class="service-option">
+            <div class="option">
+              <label class="container-radio">30 minute walk
+                <input type="radio" name="plan"><span class="checkmark"></span>
+              </label>
+            </div>
+            <p class="price">$29</p>
+          </div>
+          <div class="service-option">
+            <div class="option">
+              <label class="container-radio">1 hour walk
+                <input type="radio" name="plan"><span class="checkmark"></span>
+              </label>
+            </div>
+            <p class="price">$49</p>
+          </div>
+          <div class="send-box">
+            <input type="text" placeholder="Type a message…">
+            <button class="submit"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
       </div>
-  
-      <div>
-        <dt><img src="https://raw.githubusercontent.com/Deepali25-K/clipboard_landing_page/main/images/icon-text.svg" alt="icon-text"></dt>
-        <dd>
-          <p>Plain text snippets</p>
-          <p>Remove unwanted formatting from copied text for a consistent look.</p>
-        </dd>
-      </div>
-  
-      <div>
-        <dt><img src="https://raw.githubusercontent.com/Deepali25-K/clipboard_landing_page/main/images/icon-preview.svg" alt="icon-preview"></dt>
-        <dd>
-          <p>Sneak preview</p>
-          <p>Quick preview of all snippets on your Clipboard for easy access.</p>
-        </dd>
-      </div>
-    </dl>
-  </section>
-  
-  <div class="flexbox">
-    <img src="https://i.ibb.co/Gtp0L0S/logo-google.png" alt="logo-google" border="0">
-    <img src="https://i.ibb.co/CMFS3x3/logo-ibm.png" alt="logo-ibm" border="0">
-    <img src="https://i.ibb.co/NKVyvLm/logo-microsoft.png" alt="logo-microsoft" border="0">
-    <img src="https://i.ibb.co/QCZPWX8/logo-hp.png" alt="logo-hp" border="0">
-    <img src="https://i.ibb.co/nbVpFnc/logo-vector-graphics.png" alt="logo-vector-graphics" border="0">
-  </div>
-  
-  <section>
-    <h1>Clipboard for iOS and Mac OS</h1>
-    <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud
-      and you’re ready to start adding to your clipboard.</p>
-    <div class="buttons">
-      <button>Download for iOS</button>
-      <button>Download for Mac</button>
-    </div>
-  </section>
-  
-  <footer>
-    <div>
-      <a href="#"><img src="https://raw.githubusercontent.com/Deepali25-K/clipboard_landing_page/main/images/logo.svg" class="logo" alt="logo"></a>
-      <ul>
-        <li><a href="#">FAQs</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Press Kit</a></li>
-        <li><a href="#">Install Guide</a></li>
-      </ul>
     </div>
   
-    <div>
-      <img src="https://raw.githubusercontent.com/Deepali25-K/clipboard_landing_page/main/images/icon-facebook.svg" alt="facebook-icon">
-      <img src="https://raw.githubusercontent.com/Deepali25-K/clipboard_landing_page/main/images/icon-twitter.svg" alt="twitter-icon">
-      <img src="https://raw.githubusercontent.com/Deepali25-K/clipboard_landing_page/main/images/icon-instagram.svg" alt="instagram-icon">
-    </div>
-  </footer>
+    <article>
+      <h1>Simple booking</h1>
+      <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.</p>
+    </article>
+  
+  </main>
+  
 </body>
 </html>
